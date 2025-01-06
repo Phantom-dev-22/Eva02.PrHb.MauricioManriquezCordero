@@ -1,0 +1,55 @@
+.gestioncitas-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  border-radius: 50% !important;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3880ff;
+  color: white;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+
+
+
+.centered-container {
+  display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;     /* Centrado vertical */
+  height: 100vh;           /* Ocupa el 100% de la altura de la pantalla */
+  flex-direction: column;  /* Apilar los elementos verticalmente */
+  gap: 15px;               /* Espacio entre las citas */
+}
+
+.cita-item {
+  width: 80%;              /* Ancho de la cita */
+  max-width: 400px;        /* Limitar el ancho máximo */
+  text-align: center;      /* Centrar el texto */
+  background-color: black; /* Fondo negro */
+  color: white;            /* Texto blanco */
+  padding: 15px;           /* Espaciado interno */
+  border-radius: 10px;     /* Bordes redondeados */
+}
+
+.author {
+  font-style: italic;      /* Estilo en cursiva para el autor */
+  margin-top: 10px; 
+  text-align: end;       /* Margen superior para separar el autor de la cita */
+}
+
+.gestioncitas-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10;
+}
+
+

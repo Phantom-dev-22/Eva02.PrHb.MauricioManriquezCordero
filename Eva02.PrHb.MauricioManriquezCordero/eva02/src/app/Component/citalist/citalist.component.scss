@@ -1,0 +1,10 @@
+ion-item {
+    --background: transparent;  /* Elimina el fondo */
+    --ion-item-background: transparent;  /* Anula el fondo predeterminado */
+  }
+  
+  ion-icon {
+    background: none;  /* Asegúrate de que el icono no tenga fondo */
+    padding: 0;  /* Elimina cualquier relleno adicional alrededor del icono */
+  }
+  
